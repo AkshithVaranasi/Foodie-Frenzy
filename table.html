@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+    color:white;
+    background-image:url("images/tr.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    font-family: 'Raleway', tahoma;
+  }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Table Reservation</title>
+  <center>
+  <h1><i>Reserve a Table</i></h1>
+  </center>
+</head>
+<body>
+
+<form action="/table" method="POST">
+<div>
+    <center>
+<label for="customername">customerName</label>
+    <input type="text" id="customername" name="customername">
+    <br>
+    <br>
+    <br>
+    <label for="tableno">Tableno :</label>
+    <input type="text" id="tableno" name="tableno" min="1" max="20">
+    <br>
+    <br>
+    <br>
+            <label for="phonenumber">phonenumber :</label>
+            <input type="text" id="phonenumber" name="phonenumber">
+
+    					<button>Submit</button>
+    </center>
+</div>
+
+</form>
+
+
+
+</body>
+</html>
